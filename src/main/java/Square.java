@@ -6,7 +6,10 @@ public class Square {
     private boolean down;
     private boolean right;
     private boolean left;
-
+    
+    boolean expanded; // node ile iþim bitti mi
+    boolean generated; // node generate edildi mi
+    
     private int row; //square location
     private int column;
     private String squareType;
